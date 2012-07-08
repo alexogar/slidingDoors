@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FDF53536F0638D2BC63ACE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACE7 /* UIKit.framework */; };
+		7FDF53536F0638D2BC63ACEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACE9 /* Foundation.framework */; };
+		7FDF53536F0638D2BC63ACEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACEB /* CoreGraphics.framework */; };
+		7FDF53536F0638D2BC63ACF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACF1 /* InfoPlist.strings */; };
+		7FDF53536F0638D2BC63ACF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACF3 /* main.m */; };
+		7FDF53536F0638D2BC63ACF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACF7 /* AppDelegate.m */; };
+		7FDF53536F0638D2BC63AD03 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD02 /* SenTestingKit.framework */; };
+		7FDF53536F0638D2BC63AD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACE7 /* UIKit.framework */; };
+		7FDF53536F0638D2BC63AD05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63ACE9 /* Foundation.framework */; };
+		7FDF53536F0638D2BC63AD0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD0C /* InfoPlist.strings */; };
+		7FDF53536F0638D2BC63AD10 /* SlidingDoorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD0F /* SlidingDoorsTests.m */; };
+		7FDF53536F0638D2BC63AD14 /* SlidingDoors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD13 /* SlidingDoors.m */; };
+		7FDF53536F0638D2BC63AD17 /* SlidingDoorsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD16 /* SlidingDoorsBuilder.m */; };
+		7FDF53536F0638D2BC63AD1B /* BottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD1A /* BottomViewController.m */; };
+		7FDF53536F0638D2BC63AD1D /* BottomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD1C /* BottomViewController.xib */; };
+		7FDF53536F0638D2BC63AD20 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD1F /* TopViewController.m */; };
+		7FDF53536F0638D2BC63AD22 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD21 /* TopViewController.xib */; };
+		7FDF53536F0638D2BC63AD25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF53536F0638D2BC63AD24 /* ViewController.m */; };
+		9EDD663815A9A83400E3A903 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDD663715A9A83400E3A903 /* MainStoryboard_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FDF53536F0638D2BC63AD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FDF53536F0638D2BC63ACD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FDF53536F0638D2BC63ACDF;
+			remoteInfo = SlidingDoors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FDF53536F0638D2BC63ACDE /* SlidingDoors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingDoors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDF53536F0638D2BC63ACE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FDF53536F0638D2BC63ACE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FDF53536F0638D2BC63ACEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FDF53536F0638D2BC63ACEF /* SlidingDoors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SlidingDoors-Info.plist"; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63ACF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63ACF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63ACF5 /* SlidingDoors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlidingDoors-Prefix.pch"; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63ACF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63ACF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63ACF9 /* SlidingDoorsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingDoorsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDF53536F0638D2BC63AD02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FDF53536F0638D2BC63AD0A /* SlidingDoorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SlidingDoorsTests-Info.plist"; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD0E /* SlidingDoorsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingDoorsTests.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD0F /* SlidingDoorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingDoorsTests.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD11 /* SlideDoorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideDoorProtocol.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD12 /* SlidingDoors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingDoors.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD13 /* SlidingDoors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingDoors.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD15 /* SlidingDoorsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingDoorsBuilder.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD16 /* SlidingDoorsBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingDoorsBuilder.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD19 /* BottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomViewController.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD1A /* BottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomViewController.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD1C /* BottomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomViewController.xib; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD1E /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD1F /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD21 /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD23 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FDF53536F0638D2BC63AD24 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EDD663715A9A83400E3A903 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FDF53536F0638D2BC63ACE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF53536F0638D2BC63ACE8 /* UIKit.framework in Frameworks */,
+				7FDF53536F0638D2BC63ACEA /* Foundation.framework in Frameworks */,
+				7FDF53536F0638D2BC63ACEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDF53536F0638D2BC63ACFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF53536F0638D2BC63AD03 /* SenTestingKit.framework in Frameworks */,
+				7FDF53536F0638D2BC63AD04 /* UIKit.framework in Frameworks */,
+				7FDF53536F0638D2BC63AD05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FDF53536F0638D2BC63ACDA = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63ACDB /* Products */,
+				7FDF53536F0638D2BC63ACE6 /* Frameworks */,
+				7FDF53536F0638D2BC63ACED /* SlidingDoors */,
+				7FDF53536F0638D2BC63AD08 /* SlidingDoorsTests */,
+			);
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63ACDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63ACDE /* SlidingDoors.app */,
+				7FDF53536F0638D2BC63ACF9 /* SlidingDoorsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63ACE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63AD02 /* SenTestingKit.framework */,
+				7FDF53536F0638D2BC63ACEB /* CoreGraphics.framework */,
+				7FDF53536F0638D2BC63ACE9 /* Foundation.framework */,
+				7FDF53536F0638D2BC63ACE7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63ACED /* SlidingDoors */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63AD16 /* SlidingDoorsBuilder.m */,
+				7FDF53536F0638D2BC63AD15 /* SlidingDoorsBuilder.h */,
+				7FDF53536F0638D2BC63AD13 /* SlidingDoors.m */,
+				7FDF53536F0638D2BC63AD12 /* SlidingDoors.h */,
+				7FDF53536F0638D2BC63AD11 /* SlideDoorProtocol.h */,
+				7FDF53536F0638D2BC63ACEE /* Supporting Files */,
+				7FDF53536F0638D2BC63AD18 /* DemoUsage */,
+			);
+			path = SlidingDoors;
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63ACEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63ACF5 /* SlidingDoors-Prefix.pch */,
+				7FDF53536F0638D2BC63ACF3 /* main.m */,
+				7FDF53536F0638D2BC63ACF1 /* InfoPlist.strings */,
+				7FDF53536F0638D2BC63ACEF /* SlidingDoors-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63AD08 /* SlidingDoorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63AD0F /* SlidingDoorsTests.m */,
+				7FDF53536F0638D2BC63AD0E /* SlidingDoorsTests.h */,
+				7FDF53536F0638D2BC63AD09 /* Supporting Files */,
+			);
+			path = SlidingDoorsTests;
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63AD09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63AD0C /* InfoPlist.strings */,
+				7FDF53536F0638D2BC63AD0A /* SlidingDoorsTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63AD18 /* DemoUsage */ = {
+			isa = PBXGroup;
+			children = (
+				7FDF53536F0638D2BC63ACF7 /* AppDelegate.m */,
+				7FDF53536F0638D2BC63ACF6 /* AppDelegate.h */,
+				7FDF53536F0638D2BC63AD24 /* ViewController.m */,
+				7FDF53536F0638D2BC63AD23 /* ViewController.h */,
+				7FDF53536F0638D2BC63AD21 /* TopViewController.xib */,
+				7FDF53536F0638D2BC63AD1F /* TopViewController.m */,
+				7FDF53536F0638D2BC63AD1E /* TopViewController.h */,
+				7FDF53536F0638D2BC63AD1C /* BottomViewController.xib */,
+				7FDF53536F0638D2BC63AD1A /* BottomViewController.m */,
+				7FDF53536F0638D2BC63AD19 /* BottomViewController.h */,
+				9EDD663715A9A83400E3A903 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = DemoUsage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FDF53536F0638D2BC63ACDF /* SlidingDoors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FDF53536F0638D2BC63ACE0 /* Build configuration list for PBXNativeTarget "SlidingDoors" */;
+			buildPhases = (
+				7FDF53536F0638D2BC63ACE3 /* Sources */,
+				7FDF53536F0638D2BC63ACE4 /* Frameworks */,
+				7FDF53536F0638D2BC63ACE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingDoors;
+			productName = SlidingDoors;
+			productReference = 7FDF53536F0638D2BC63ACDE /* SlidingDoors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FDF53536F0638D2BC63ACFA /* SlidingDoorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FDF53536F0638D2BC63ACFB /* Build configuration list for PBXNativeTarget "SlidingDoorsTests" */;
+			buildPhases = (
+				7FDF53536F0638D2BC63ACFE /* Sources */,
+				7FDF53536F0638D2BC63ACFF /* Frameworks */,
+				7FDF53536F0638D2BC63AD00 /* Resources */,
+				7FDF53536F0638D2BC63AD01 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FDF53536F0638D2BC63AD07 /* PBXTargetDependency */,
+			);
+			name = SlidingDoorsTests;
+			productName = SlidingDoorsTests;
+			productReference = 7FDF53536F0638D2BC63ACF9 /* SlidingDoorsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FDF53536F0638D2BC63ACD8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7FDF53536F0638D2BC63ACD9 /* Build configuration list for PBXProject "SlidingDoors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FDF53536F0638D2BC63ACDA;
+			productRefGroup = 7FDF53536F0638D2BC63ACDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FDF53536F0638D2BC63ACDF /* SlidingDoors */,
+				7FDF53536F0638D2BC63ACFA /* SlidingDoorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FDF53536F0638D2BC63ACE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF53536F0638D2BC63ACF2 /* InfoPlist.strings in Resources */,
+				7FDF53536F0638D2BC63AD1D /* BottomViewController.xib in Resources */,
+				7FDF53536F0638D2BC63AD22 /* TopViewController.xib in Resources */,
+				9EDD663815A9A83400E3A903 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDF53536F0638D2BC63AD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF53536F0638D2BC63AD0D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FDF53536F0638D2BC63AD01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FDF53536F0638D2BC63ACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF53536F0638D2BC63ACF4 /* main.m in Sources */,
+				7FDF53536F0638D2BC63ACF8 /* AppDelegate.m in Sources */,
+				7FDF53536F0638D2BC63AD14 /* SlidingDoors.m in Sources */,
+				7FDF53536F0638D2BC63AD17 /* SlidingDoorsBuilder.m in Sources */,
+				7FDF53536F0638D2BC63AD1B /* BottomViewController.m in Sources */,
+				7FDF53536F0638D2BC63AD20 /* TopViewController.m in Sources */,
+				7FDF53536F0638D2BC63AD25 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDF53536F0638D2BC63ACFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF53536F0638D2BC63AD10 /* SlidingDoorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FDF53536F0638D2BC63AD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FDF53536F0638D2BC63ACDF /* SlidingDoors */;
+			targetProxy = 7FDF53536F0638D2BC63AD06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FDF53536F0638D2BC63ACF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FDF53536F0638D2BC63ACF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FDF53536F0638D2BC63AD0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FDF53536F0638D2BC63AD0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FDF53536F0638D2BC63ACDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FDF53536F0638D2BC63ACDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FDF53536F0638D2BC63ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingDoors/SlidingDoors-Prefix.pch";
+				INFOPLIST_FILE = "SlidingDoors/SlidingDoors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FDF53536F0638D2BC63ACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingDoors/SlidingDoors-Prefix.pch";
+				INFOPLIST_FILE = "SlidingDoors/SlidingDoors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FDF53536F0638D2BC63ACFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlidingDoors.app/SlidingDoors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingDoors/SlidingDoors-Prefix.pch";
+				INFOPLIST_FILE = "SlidingDoorsTests/SlidingDoorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		7FDF53536F0638D2BC63ACFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlidingDoors.app/SlidingDoors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingDoors/SlidingDoors-Prefix.pch";
+				INFOPLIST_FILE = "SlidingDoorsTests/SlidingDoorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FDF53536F0638D2BC63ACD9 /* Build configuration list for PBXProject "SlidingDoors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDF53536F0638D2BC63ACDC /* Release */,
+				7FDF53536F0638D2BC63ACDD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FDF53536F0638D2BC63ACE0 /* Build configuration list for PBXNativeTarget "SlidingDoors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDF53536F0638D2BC63ACE1 /* Release */,
+				7FDF53536F0638D2BC63ACE2 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FDF53536F0638D2BC63ACFB /* Build configuration list for PBXNativeTarget "SlidingDoorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDF53536F0638D2BC63ACFC /* Release */,
+				7FDF53536F0638D2BC63ACFD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FDF53536F0638D2BC63ACD8 /* Project object */;
+}
